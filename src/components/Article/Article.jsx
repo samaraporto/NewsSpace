@@ -8,7 +8,7 @@ import './styles.css'
 //     title = 'exemplo'
 // }
 
-export function Article({title, provider, description, img}) {
+export function Article({title, provider, description, img , url}) {
     //em classe
     //basta uasar o: this.props. na classe o atributo passado ja estara na classe
     //
@@ -22,6 +22,7 @@ export function Article({title, provider, description, img}) {
                     <p>
                         {description}
                     </p>
+                    <a href={url}>{url}</a>
                 </div>
             </article>
         )

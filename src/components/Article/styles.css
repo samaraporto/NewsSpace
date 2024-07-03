@@ -2,6 +2,8 @@
     display: flex;
     gap: 1rem;
 
+    margin-bottom: 12px;
+
 }
 #article .article-infos h2{
     font-size: 30px;
@@ -14,8 +16,11 @@
     color: #8695a4;
     margin-bottom: 2rem;
 }
+#article .article-infos a{
+    color: rgb(126, 104, 123);
+    margin-top: 3px;
+}
 #article > img{
-    width: 200px;
-    height: 183px;
-    margin-bottom: 1em;
+    max-width: 350px;
+    border-radius: 3px;
 }
